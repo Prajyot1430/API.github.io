@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: wheat;
+}
+
+#header{
+
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,7,102,1) 27%, rgba(9,9,121,1) 35%, rgba(8,40,142,1) 45%, rgba(0,212,255,1) 100%); 
+    border: 3px solid brown;
+
+}
+
+#searchbar{
+    float: right;
+    margin-top: 10px;
+    border: 1px solid burlywood;
+} 
+
+#contanier{
+
+    margin-top: 50px;
+    border: 4px solid slateblue;
+    height: 380px;
+    background: linear-gradient(red, yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myform{
+    width: 60%;
+    height: 300px;
+    border: 5px solid royalblue;
+    background-color: salmon;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: table;
+    /* width: 200px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+#food{
+
+    /* width: 200px; */
+    height: 30px;
+    border: 1px solid blueviolet;
+    color: brown;
+   align-items: center;
+   align-content: center;
+   width: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   display:block;
+   text-align:center;
+   padding: 20px;
+
+
+}
+
+
+
+#entry{
+/* display:table; */
+margin-top: 30px;
+align-items: center;
+margin-left: 20px;
+width: 200px;
+border: 3px solid black;
+border-radius: 25px;
+display:block;
+text-align: center;
+margin-left: 430px;
+height: 30px;
+cursor: pointer;
+
+
+}
+#entry:hover{
+    background-color: seagreen;
+    color: white;
+}
+
+#Demo{
+    border:3px solid black;
+    width: 200px;
+    height:1000px;
+    margin-top: 30px;
+    margin-left: 850px;
+    background-color: darkorchid;
+}
+h2{
+    text-align: center;
+}
+
+.same{
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    color: white;
+
+}
+.same:nth-child(odd){
+color: brown;
+}
+.same:nth-child(even){
+color: yellowgreen;
+    }
+    spam{
+        /* border: 2px solid black; */
+        background-color: blueviolet;
+        /* color: coral; */
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        font-family: sans-serif;
+
+        text-decoration: darkgoldenrod;
+    }
+/* 
+#calories{
+    font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  border: 3px solid black;
+ margin-top: 50px;
+ padding: 30px;
+ margin-left: 550px;
+}
+
+table,td,th{
+    border: 4px solid black;
+    text-align: center;
+}
+
+th{
+    background-color: brown;
+    color: white;
+
+} */

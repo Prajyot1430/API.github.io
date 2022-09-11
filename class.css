@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tut{
+    margin-top: 50px;
+   border: 1px solid black;
+   width: 25%;
+   height: 450px;
+   margin-left: 750px;
+   background-color: burlywood;
+   
+}
+h3{
+    text-align: center;
+text-decoration: chartreuse;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+margin-top: 10px;
+
+}
+.tut1{
+    position: relative;
+    text-align: center;
+}
+#demo{
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    align-items: center;
+    /* margin-left: 150px; */
+}
+
+#demo1{
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    align-items: center;
+    /* margin-left: 150px; */
+}
+
+#demo2{
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    align-items: center;
+    /* margin-left: 150px; */
+    border-radius: 25%;
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+    text-transform: capitalize;
+    
+}
